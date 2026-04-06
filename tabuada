@@ -1,0 +1,14 @@
+# Solicitando o número para o usuário
+num = int(input('Informe o número da tabuada: '))
+
+print('******************************')
+print(f'TABUADA DO {num}')
+print('******************************')
+
+# Criando o laço de 1 até 10
+# O range(1, 11) começa no 1 e para antes do 11
+for i in range(1, 11):
+    resultado = i * num
+    print(f'{i} x {num} = {resultado}')
+
+print('******************************')

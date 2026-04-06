@@ -1,0 +1,10 @@
+# Solicitando os dados de acesso
+usuario = input('Usuário: ')
+senha = input('Senha: ')
+
+# Verificando as duas possibilidades de login
+# Opção 1: atila/12345 OU Opção 2: olivi/54321
+if (usuario == 'atila' and senha == '12345') or (usuario == 'olivi' and senha == '54321'):
+    print('Seja bem vindo!')
+else:
+    print('Usuário e senha não conferem')

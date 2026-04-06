@@ -1,0 +1,10 @@
+import time
+
+print('Preparando para o lançamento...')
+
+# range(inicio, fim_exclusivo, passo)
+for i in range(10, -1, -1):
+    print(i)
+    time.sleep(1) # Faz o programa esperar 1 segundo entre os números
+
+print('Ignição!')

@@ -1,0 +1,14 @@
+# Recebendo a entrada como string primeiro para poder validar
+entrada = input('Digite um número inteiro: ').strip()
+
+# Verificando se a entrada está vazia
+if entrada == '':
+    print('Dado inválido')
+else:
+    # Tentando converter para inteiro e exibir
+    try:
+        numero = int(entrada)
+        print(f'O número digitado foi: {numero}')
+    except ValueError:
+        # Caso o usuário digite letras ou símbolos em vez de números
+        print('Erro: O valor digitado não é um número inteiro válido.')

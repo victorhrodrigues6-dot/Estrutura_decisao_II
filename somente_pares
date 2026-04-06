@@ -1,0 +1,3 @@
+# O range começa em 2, vai até 101 (para incluir o 100) e pula de 2 em 2
+for i in range(2, 101, 2):
+    print(i)

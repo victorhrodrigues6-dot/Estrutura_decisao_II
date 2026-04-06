@@ -1,0 +1,14 @@
+# Criando uma lista vazia para armazenar os números
+numeros = []
+
+# Usando um laço de repetição para pedir 5 números
+for i in range(1, 6):
+    num = float(input(f'Digite o {i}º número: '))
+    numeros.append(num)
+
+# Exibindo os números na tela
+
+
+print('Os números digitados foram:')
+for n in numeros:
+    print(n)

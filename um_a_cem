@@ -1,0 +1,3 @@
+# O laço percorre de 1 até o número anterior a 101
+for i in range(1, 101):
+    print(i)

@@ -1,0 +1,11 @@
+# Perguntando a distância da viagem
+distancia = float(input('Qual a distância da viagem em Km? '))
+
+# Verificando qual tarifa aplicar
+if distancia <= 200:
+    preco = distancia * 0.50
+else:
+    preco = distancia * 0.45
+# Exibindo o resultado formatado
+print(f'Distância percorrida: {distancia} Km')
+print(f'Preço da passagem: R$ {preco:.2f}')

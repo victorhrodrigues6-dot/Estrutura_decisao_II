@@ -1,0 +1,19 @@
+# Solicitando os três números ao usuário
+num1 = float(input('Digite o primeiro número: '))
+num2 = float(input('Digite o segundo número: '))
+num3 = float(input('Digite o terceiro número: '))
+
+# Armazenando os números em uma lista para facilitar os cálculos
+numeros = [num1, num2, num3]
+
+# Realizando os processamentos
+maior = max(numeros)
+menor = min(numeros)
+soma = sum(numeros)
+media = soma / 3
+
+# Exibindo os resultados
+print(f'maior = {maior}')
+print(f'menor = {menor}')
+print(f'soma = {soma}')
+print(f'media = {media}')
